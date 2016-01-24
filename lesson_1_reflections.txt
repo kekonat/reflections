@@ -1,0 +1,5 @@
+"diff -u <old_file> <new_file>" is a good way to spon differences
++ indicates added lines
+- indicates removed lines
+its easy to find what changes were made to a file
+make sure we commit often so the changes between two files is small!
