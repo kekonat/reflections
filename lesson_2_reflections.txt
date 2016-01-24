@@ -1,0 +1,10 @@
+What happens when you nitialize a repository? Why do you need to do it?
+
+We need to initilize a repository to tell get we want to keep track of these files.
+If we do not do this, git will have to keep track of EVERYTHING we have.
+We don't want this.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+I think that the staging area is for us to explicitly remind ourselves what we are currently working on.
+We should not be adding multiple files into the staging area if they do not logically belong together.
