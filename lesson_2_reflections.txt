@@ -8,3 +8,18 @@ How is the staging area different from the working directory and the repository?
 
 I think that the staging area is for us to explicitly remind ourselves what we are currently working on.
 We should not be adding multiple files into the staging area if they do not logically belong together.
+
+"git diff" gives the difference between files that are in the working directory and the staging directory.
+If you have not "add"ed anything, but you changed files, you will see the changes you made
+If you did "add" a file, it will not show you anything.
+
+"git diff --staged" gives the difference between the staged area and the last commit.
+You can see the changed you made and added before you commit anything.
+If you did not add anything, "gid diff --staged" will not show anything.
+
+"git reset --hard" removes reverts all changes in the working and staged area.
+THIS IS NOT REVERSIBLE because it has never been committed.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When you have working code that you want to be able to get back to, make a branch and work on the branch instead.
